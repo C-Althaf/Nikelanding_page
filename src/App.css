@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --red:#deer
+    --grey:#2e2e2e
+}
+*{
+    margin: 0;
+}
+nav{
+    display: flex;
+    
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 72px;
+    align-items: center;
+    
+    
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 24px; position: relative;
+}
+.movr{
+    position:absolute;
+    right:210px;
+    height:3%;
+}
+
+.button{
+    all:unset;
+    padding: 7px 15px;
+    background:#cd0512;
+    color: white;
+    font-weight: 7700;
+    border-radius:3px;
+}
+.rad{
+    border-radius:50px ;
+}
+button{
+    all:unset;
+    padding: 6px 16px;
+    background:#cd0512;
+    color: white;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+.main{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    height: 600px;
+    gap: 15px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;    
+}
+.content h1{
+    font-weight: 800;
+    line-height: 90px;
+    font-size: 108px;
+
+}
+.content p{
+    font-weight:600;
+    max-width: 400px;
+    color: rgb(60, 59, 59);
+}
+.shop-btn{
+    display: flex;
+    gap:40px;
+}
+.sec-btn{
+    border: 1px solid rgb(84, 84, 84);
+    color: rgb(71, 70, 70);
+    background: transparent;
+    border-radius: 3px;
+}
+.shop{
+    font-size: 14px;
+    margin: 8px;
+}
+
+.shop-img{
+    display: flex;
+    gap:26px;
+}
+
+
